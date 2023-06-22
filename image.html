@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="" width=device-width,initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="image.css"> -->
+    <title> Document</title>
+</head>
+<style>
+
+    .imgbox{
+        position: absolute;
+        float: left;  
+    }
+    .imgbox .hovimg{
+        top: 0;
+        left: 0;
+        position: absolute;
+        display: none;
+    }
+    .imgbox:hover .hovimg{
+        display: block;
+    }
+</style>
+
+
+<body>
+    <div class="imgbox">
+        <div class="img">
+            <img src="tree.jpg" height="300" width="300">
+        </div>
+        <div class="hovimg">
+            <img src="flower.jpg" height="300" width="300">
+        </div>
+    </div>
+</body>
+
+</html>
