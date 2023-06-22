@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body{
+	margin:0;
+	font-family:Arial;
+	font-size:17px;
+}
+
+Video{
+	/* position: fixed; */
+	right:0;
+	bottom:0;
+	width:1200px;
+	height: 500px;
+
+}
+.content{
+	
+	right:0;
+	bottom:0;
+	background:rgba(0,0,0,0.5);
+	color:#f1f1f1;
+}
+
+#myBtn{
+	width:200px;
+	font-size:18px;
+	padding:10px;
+	border:none;
+	background:#000;
+	color:#fff;
+	cursor: pointer;
+}
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+</style>
+</head>
+<body>
+  <video controls>
+    <source src="rain.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+<div class="content">
+<h1>Rain</h1>
+<p>Rain is liquid precipitation: water falling from the sky. Raindrops fall to Earth when clouds become saturated, or filled, with water droplets. Millions of water droplets bump into each other as they gather in a cloud. When a small water droplet bumps into a bigger one, it condenses, or combines, with the larger one.</p>
+<button id="myBtn" onclick="myFunction()">Pause</button>
+</div>
+
+
