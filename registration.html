@@ -1,0 +1,145 @@
+<!DOCTYPE html>  
+<html>  
+<head> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/solid.min.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+}  
+.container {  
+    padding: 50px;  
+  background-color: lightblue;  
+} 
+
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+<form>  
+  <div class="container">  
+  <center>  <h1> Student Registeration Form</h1> </center>  
+  <hr>  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+</svg>
+  <label> Firstname </label>   
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+</svg>
+<label> Middlename: </label>   
+<input type="text" name="middlename" placeholder="Middlename" size="15" required />   
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+</svg>
+<label> Lastname: </label>    
+<input type="text" name="lastname" placeholder="Lastname" size="15"required />   
+<div>  
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+    <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+  </svg>
+<label>   
+Course :  
+</label>   
+  
+<select>  
+<option value="Course">Course</option>  
+<option value="BCA">BCA</option>  
+<option value="BBA">BBA</option>  
+<option value="B.Tech">B.Tech</option>  
+<option value="MBA">MBA</option>  
+<option value="MCA">MCA</option>  
+<option value="M.Tech">M.Tech</option>  
+</select>  
+</div>  
+<div>  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+  
+</div>  
+<label> Skills: </label>    
+<input type="text" name="Skills" placeholder="Enter your Skills" size="15"required /> 
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+  <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
+  <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+</svg>  
+<label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+<br>
+<br>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+</svg>
+<label>
+Phone :  
+</label> 
+<i class='fas fa-phone-alt'></i> 
+<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+<input type="text" name="phone" placeholder="phone no." size="10"/ required>   
+Current Address :  
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+</textarea>  
+permant Address :  
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+</textarea>
+<label> Age </label>   
+<input type="text" name="Age" placeholder= "Enter Your Age" size="15" required />
+ <label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required>  
+  
+    <label for="psw"><b>Password</b></label>  
+    <input type="password" placeholder="Enter Password" name="psw" required>  
+  
+    <label for="psw-repeat"><b>Re-type Password</b></label>  
+    <input type="password" placeholder="Retype Password" name="psw-repeat" required>
+<label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+  <input type="submit"> 
+<div>
+  <label class="screen-reader-only" for="choice">Agree or Not Agree?</label><br><br>
+  <span aria-hidden="true">Not Agree</span>
+  <input type="range" max="1" id="choice" name="choice">
+  <span aria-hidden="true">Agree</span>
+</div> 
+    <button type="submit" class="registerbtn">Register</button> 
+   
+</form>  
+</body>  
+</html>  
